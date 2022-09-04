@@ -1,0 +1,158 @@
+.fill500 {
+	width: 100%;
+	max-width: 500px;
+}
+
+.infobox {
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.infobox img {
+	width: 250px;
+	height: 100%;
+}
+.infobox p {
+	margin: 0;
+}
+
+.infobox-small {
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.infobox-small img {
+	width: 250px;
+	height: 100%;
+}
+.infobox-small p {
+	margin: 0;
+}
+
+.scroll-x {
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+.scroll-x > * {
+	white-space: initial;
+}
+
+.centered {
+	text-align: center !important;
+}
+.float-left {
+	float: left;
+	margin-right: 1em;
+}
+
+.big-title {
+	font-size: 3em;
+	color:black;
+	font-family: chicago, sans-serif;
+	margin: 0;
+}
+.footnote {
+	font-size: 0.8em;
+	color: gray;
+}
+
+.image-thumbnail {
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+}
+.image-thumbnail img {
+	margin-bottom: 4px;
+	object-fit: cover;
+	object-position: center;
+	width: 267px;
+}
+.image-thumbnail span {
+	font-weight: bold;
+	width: 267px;
+	display: inline-block;
+}
+
+@media only screen and (min-width: 400px) {
+	.gallery-window {
+		max-width: 310px;
+	}
+}
+@media only screen and (min-width: 670px) {
+	.gallery-window {
+		max-width: 580px;
+	}
+}
+@media only screen and (min-width: 940px) {
+	.gallery-window {
+		max-width: 850px;
+	}
+}
+@media only screen and (min-width: 1230px) {
+	.gallery-window {
+		max-width: 1120px;
+	}
+}
+
+@media only screen and (min-width: 415px) {
+	.limit-x {
+		max-width: 276px;
+	}
+}
+@media only screen and (min-width: 700px) {
+	.limit-x {
+		max-width: 560px;
+	}
+}
+@media only screen and (min-width: 984px) {
+	.limit-x {
+		max-width: 844px;
+	}
+}
+.limit-x .infobox {
+	margin: 5px;
+}
+
+.blog-date {
+	color: #888;
+	font-size: 10px;
+}
+.blog-window {
+	max-width: 40rem;
+}
+.blog-window img {
+	max-width: 100%;
+  max-height: 100%;
+}
+
+.blog-table {
+	border-collapse: collapse;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+.blog-table td {
+	margin: 0;
+	padding: 4px;
+}
+.blog-table tr:nth-child(odd) {
+	background: #eee;
+}
+
+.double-page img {
+	width: 49%;
+}
