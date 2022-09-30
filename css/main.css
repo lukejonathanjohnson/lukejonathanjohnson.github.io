@@ -1,0 +1,283 @@
+h3 {color: white;}
+
+h2 {
+  color: black;
+  font-size: 55;
+}
+
+p {
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+
+/*.body-section {
+	padding-right: 120px; }*/
+
+@font-face {
+  font-family: "Pokemon GB";
+  src: url("https://dl.dropboxusercontent.com/u/10822923/Pokemon_GB/Pokemon_GB.eot?") format("eot"),
+       url("https://dl.dropboxusercontent.com/u/10822923/Pokemon_GB/Pokemon_GB.woff") format("woff"),
+       url("https://dl.dropboxusercontent.com/u/10822923/Pokemon_GB/Pokemon_GB.ttf") format("truetype"),
+       url("https://dl.dropboxusercontent.com/u/10822923/Pokemon_GB/Pokemon_GB.svg#PokemonGB") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box {
+  font-size: 8px;
+  font-family: "Pokemon GB", Arial, sans-serif;
+  border-radius: 2px;
+  padding: 8px;
+  width: 250px;
+  height: 28px;
+  line-height: 16px;
+  margin: auto;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px black,
+              0 0 0 1px black,
+              inset 0 0 0 1px black;
+}
+.box > i {
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: black;
+  margin-top: 23px;
+  animation: bounce 0.5s ease-in-out 0 infinite alternate;
+  float: right;
+}
+
+@keyframes bounce {
+  from { margin-top: 20px; }
+  to { margin-top: 23px; }
+}
+
+
+
+
+}
+.big-icon {
+	width: 100px;
+  text-decoration: none;
+  color: #fff !important;
+	display: block;
+	float: left;
+	clear: left;
+	margin: 2px 10px;
+	text-align: center;
+}
+.big-icon img {
+  display: block;
+  padding-bottom: 2px;
+  margin: auto;
+}
+.big-icon span {
+  background: #000;
+	padding: 2px;
+  display: inline-block;
+	font-family: arcade n;
+	font-size: 8px;
+}
+
+@media screen and (max-height: 8000px) {
+  .big-icon img {
+    width: auto;
+    height: 32px;
+  }
+}
+
+.bubble {
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 10px;
+  opacity: 1;
+  will-change: transform;
+  font-style: italic;
+}
+
+.mac-button {
+  display: inline-block;
+  margin: 4px 5px 0 0;
+  border-style: solid;
+  border-width: 7px;
+  border-image: url("../images/button1.png") 7 fill repeat;
+  color: #000;
+  text-decoration: none;
+  padding: 1px 1px 1px 1px;
+  text-align: center;
+}
+.mac-button:hover {
+  color: #fff !important;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.buttoner {
+  display: inline-block;
+  margin: 4px 5px 0 0;
+  border-style: solid;
+  border-width: 7px;
+  background-image: url("../images/button1.png")
+  text-decoration: none;
+  padding: 1px 2px 0 2px;
+  text-align: center;
+}
+.buttoner:link, .mac-button:visited, .mac-button:active, .mac-button:hover {
+  color: #000 !important;
+  text-decoration: none;
+  font-weight: normal;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+  .content-row {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.preloader {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9999;
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0a0a0a;
+	opacity: 1;
+}
+
+.dragwindow {
+	float: left;
+	clear: left;
+  border-width: 35px 20px 20px 20px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-image: url("../images/mac-frame-drkr.png") 30 40 22 22 fill repeat;
+  border-image-width: 30px 40px 22px 22px;
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+
+
+.dragwindow-title {
+  position: absolute;
+  top: -31px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  cursor: move;
+}
+.dragwindow-title > span {
+  background: #0000;
+  padding: 2px 5px 1px 0px;
+  font-size: 12px;
+  font-family: arcade n;
+  margin-right: 20px;
+  white-space: nowrap;
+	color: #000;
+}
+
+@font-face {
+  font-family: 'Ocraext';
+  src: url('../fonts/OCRAEXT.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Arcade i';
+  src: url('../fonts/ARCADE_I.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Arcade n';
+  src: url('../fonts/ARCADE_N.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ocr a extended';
+  src: url('../fonts/OCR-A-Extended-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ocraextended';
+  src: url('../fonts/ocraextended.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

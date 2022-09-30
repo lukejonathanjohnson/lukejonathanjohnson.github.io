@@ -1,13 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
+	<style>
+	body {
+	  background: url("./images/life_bg.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		min-height: 100%;
+		margin: 0;
+	  font-size: 12px;
+		font-family: ocraextended;
+}
+
+	</style>
+	<meta charset="utf-8" />
+	<title>LJ's Homepage</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta property="og:title" content="LJ's Homepage" />
+		<meta property="og:type" content="website" />
+					<meta property="og:description" content="LJ's Homepage" />
+				<meta property="og:url" content="index.html" />
+					<meta property="og:image:secure_url" content="./images/daemon_cheers.png" />
+				    <meta name="generator" content="GravCMS" />
+    <meta name="description" content="LJ's Homepage" />
+
+	<link rel="icon" type="image/png" href="./images/daemon_favicon.png" />
+	<link rel="canonical" href="index.html" />
+
+
+
+<link href="./css/main.css" type="text/css" rel="stylesheet">
+<link href="./css/crt.css" type="text/css" rel="stylesheet">
 
 </head>
 
-<body>
 
-<h3>this will be a proper website gimme a minute</h3>
+
+<!--header containing buttons-->
+<body id="top" class='crt'>
+
+	<div class="preloader" style="display:flex" class="pre-load">
+		<img src="./images/gol_loader.gif" loading="lazy" height="400" alt="tarakudo loading icon"/>
+	</div>
+
+	<ul>
+	  <li>	<a class="big-icon" href="https://www.linkedin.com/in/lukejonathanjohnson/" target="_blank" rel="noreferrer noopener">
+					<img src="./images/linkedin_logo.png" alt="linkedin" /> <span>LinkedIn</span>
+				</a></li>
+	  <li><a class="big-icon" href="https://ui.adsabs.harvard.edu/search/q=\%20\%20author\%3A\%22Johnson\%2C\%20Luke\%20Jonathan\%22\%20aff\%3A\%22Imperial\%22&sort=date\%20desc\%2C\%20bibcode\%20desc&p_=0" target="_blank" rel="noreferrer noopener">
+					<img src="./images/ads_logo.png" alt="ads" /> <span>NASA/ADS</span>
+				</a></li>
+		<li><a class="big-icon" href="https://github.com/lukejonathanjohnson/" target="_blank" rel="noreferrer noopener">
+					<img src="./images/github_logo.png" alt="github" /> <span>GitHub</span>
+				</a></li>
+		<li style="float:right"><a class="big-icon" href="https://magiceden.io/" target="_blank" rel="noreferrer noopener">
+					<img src="./images/magiceden-white.png" alt="magiceden" />
+				</a></li>
+	  <li style="float:right"><a class="big-icon" href="https://bitdaemons.space/">
+					<img src="./images/daemon_icon.png" alt="daemon" />
+				</a></li></li>
+
+	</ul>
+
+
+	<!-- Draggable DIV -->
+<div class="dragwindow" id="windowcomp">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="dragwindow-title" id="windowcompheader"><span>compgen.js</span></div>
+  <p>hit the button for a compliment</p>
+<h3><a class="mac-button" onclick="animateCompBubble()">Click</a></h3>
+</div>
+
+	<!--row of buttons-->
+
+
+
+<!--footer with text-->
+<div class="footer">
+	<a>Made with ♥ by Luke</a>
+</div>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<!--Custom Script-->
+<script src="js/main.js"></script>
+<script src="js/drag.js"></script>
 </html>
