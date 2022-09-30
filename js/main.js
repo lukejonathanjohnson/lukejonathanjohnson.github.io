@@ -1,9 +1,9 @@
 
 var compArray = ["you're great", "you're an awesome friend",
- "wish I was more like you mate", "your family must be so proud of you", "your outfit is dope",
-"cool <item of clothing> mate!", "rate you highly", "any team would be lucky to have you on it",
-"Your potential is limitless pal", "I reckon you'd survive the apocalypse", "you got this",
-"nice one champ", "you bring out the best in those around you"];
+ "wish I was more like you mate", "your family & friends are proud of you", "your outfit is dope",
+"you are valued", "rate you highly", "any team would be lucky to have you",
+"your potential is limitless", "you’re someone’s reason to smile", "you got this",
+"you bring out the best in those around you"];
 var homeArray = ['eep'];
 var bubbleHeight = 30;
 var vw = window.innerWidth;
