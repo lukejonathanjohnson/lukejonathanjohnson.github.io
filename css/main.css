@@ -252,8 +252,9 @@ li a:hover {
 }
 
 #windowcomp {
-  top: 20%;
-  left: 70%;
+  top: 70%;
+  left: 50%;
+  width: 30%;
 }
 
 #windowabout {
