@@ -1,5 +1,10 @@
 // Make the DIV element draggable:
-dragElement(document.getElementById("windowcomp"));
+//
+var i = 0
+const winList = ['comp']
+for (let i = 0; i < const.length; i++){
+  dragElement(document.getElementById("window" + winList[i]));
+}
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
