@@ -125,6 +125,7 @@ li a:hover {
   opacity: 1;
   will-change: transform;
   font-style: italic;
+  z-index: 100;
 }
 
 .mac-button {
@@ -252,15 +253,21 @@ li a:hover {
 }
 
 #windowcomp {
-  top: 50%;
+  top: 60%;
   left: 50%;
-  width: 180px;
+  width: 170px;
 }
 
 #windowabout {
-  top: 15%;
-  left: 10%;
-  width: 200px;
+  top: 10%;
+  left: 5%;
+  width: 210px;
+}
+
+#windowcontact {
+  top: 20%;
+  left: 35%;
+  width: 300px;
 }
 
 #smile:hover{
