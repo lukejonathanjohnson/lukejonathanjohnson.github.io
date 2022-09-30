@@ -1,6 +1,6 @@
 
 var compArray = ["you're great", "you're an awesome friend",
- "wish I was more like you mate", "your family & friends are proud of you", "your outfit is dope",
+ "your perspective is refreshing", "your family & friends are proud of you", "your outfit is dope",
 "you are valued", "rate you highly", "any team would be lucky to have you",
 "your potential is limitless", "you’re someone’s reason to smile", "you got this",
 "you bring out the best in those around you"];
