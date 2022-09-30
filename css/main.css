@@ -221,7 +221,7 @@ li a:hover {
   border-width: 35px 20px 20px 20px;
   border-style: solid;
   box-sizing: border-box;
-  border-image: url("../images/mac-frame-clean.png") 30 40 22 22 fill repeat;
+  border-image: url("../images/mac-frame-drkr.png") 30 40 22 22 fill repeat;
   border-image-width: 30px 40px 22px 22px;
   position: absolute;
   z-index: 9;
@@ -252,15 +252,21 @@ li a:hover {
 }
 
 #windowcomp {
-  top: 60%;
+  top: 50%;
   left: 50%;
-  width: 30%;
+  width: 180px;
 }
 
 #windowabout {
   top: 15%;
   left: 10%;
-  width: 35%;
+  width: 200px;
+}
+
+#smile:hover{
+  cursor: pointer;
+  background-color: rgba(256, 256, 256, 0.2)
+
 }
 
 
