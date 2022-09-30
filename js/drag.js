@@ -1,8 +1,8 @@
 // Make the DIV element draggable:
 //
-var i = 0
 const winList = ['comp']
-for (let i = 0; i < const.length; i++){
+
+for (let i = 0; i < winList.length; i++){
   dragElement(document.getElementById("window" + winList[i]));
 }
 
