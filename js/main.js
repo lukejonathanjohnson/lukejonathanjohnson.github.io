@@ -1,9 +1,10 @@
+//get current day of week
+const dayOfWeekName = new Date().toLocaleString(
+  'default', {weekday: 'long'}
+);
 
-var compArray = ["you're great", "you're an awesome friend",
- "your perspective is refreshing", "your family & friends are proud of you", "your outfit is dope",
-"you are valued", "rate you highly", "any team would be lucky to have you",
-"your potential is limitless", "you’re someone’s reason to smile", "you got this",
-"you bring out the best in those around you"];
+var compArray = ["your skills are valuable", dayOfWeekName + " is the best day of the week",
+                 "taking breaks is okay", ""];
 var homeArray = ['eep'];
 var bubbleHeight = 30;
 var vw = window.innerWidth;
