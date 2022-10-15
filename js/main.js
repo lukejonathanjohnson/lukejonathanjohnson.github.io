@@ -4,7 +4,7 @@ const dayOfWeekName = new Date().toLocaleString(
 );
 
 var compArray = ["your skills are valuable", dayOfWeekName + " is the best day of the week",
-                 "taking breaks is okay", ""];
+                 "taking breaks is okay", "get some sleep"];
 var homeArray = ['eep'];
 var bubbleHeight = 30;
 var vw = window.innerWidth;

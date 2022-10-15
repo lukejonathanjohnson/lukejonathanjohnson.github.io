@@ -222,7 +222,7 @@ li a:hover {
   border-width: 35px 20px 20px 20px;
   border-style: solid;
   box-sizing: border-box;
-  border-image: url("../images/mac-frame-drkr.png") 30 40 22 22 fill repeat;
+  border-image: url("../images/mac-frame-drkst.png") 30 40 22 22 fill repeat;
   border-image-width: 30px 40px 22px 22px;
   position: absolute;
   z-index: 9;
